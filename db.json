@@ -1,0 +1,274 @@
+{
+    "foods": [
+        {
+            "id": 1,
+            "group": "Fruits",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrhUVR03NPDz5dHSdMtAtdAn6sizr8FxEQlPF3GJm0ZLaIILUWrew-u6JlGgkOK49yvp0&usqp=CAU",
+            "subGroup": "Tropical fruits",
+            "commonName": "Kiwi",
+            "foodieFact": "Actinidia chinensis (Chinese gooseberry, kiwifruit, or yang tao) is native to China.",
+            "triedCount": 3,
+            "scientificName": "Actinidia chinensis"
+        },
+        {
+            "id": 2,
+            "group": "Vegetables",
+            "image": "https://media.healthyfood.com/wp-content/uploads/2017/03/What-to-do-with-leeks-500x335.jpg",
+            "subGroup": "Onion-family vegetables",
+            "commonName": "Leek",
+            "foodieFact": "The leek is an ancient crop and is native to eastern Mediterranean lands and the Middle East.",
+            "triedCount": 9,
+            "scientificName": "Allium porrum"
+        },
+        {
+            "id": 3,
+            "group": "Vegetables",
+            "image": "https://www.thespruceeats.com/thmb/HJsY0T9uootRYh0LX6ixepkYCqo=/450x0/filters:no_upscale():max_bytes(150000):strip_icc()/AkepongSrichaichanaEyeEm-f65a4216042643ba9e7ee1b55ca20fed.jpg",
+            "subGroup": "Root vegetables",
+            "commonName": "Burdock",
+            "foodieFact": "Burdock is commonly cultivated in Japan where it gives its name to a particular construction technique, burdock piling.",
+            "triedCount": 0,
+            "scientificName": "Arctium lappa"
+        },
+        {
+            "id": 4,
+            "group": "Herbs and Spices",
+            "image": "https://images.thestar.com/qGs9GusvCTnvlIUFB5r9yRSPzUM=/1086x725/smart/filters:cb(2700061000)/https://www.thestar.com/content/dam/thestar/life/food_wine/2017/03/29/fresh-bites-how-to-buy-and-use-horseradish/horseradish.jpg",
+            "subGroup": "Spices",
+            "commonName": "Horseradish",
+            "foodieFact": "Horseradish has been cultivated for at least 2000 years for its pungent roots.",
+            "triedCount": 3,
+            "scientificName": "Armoracia rusticana"
+        },
+        {
+            "id": 5,
+            "group": "Herbs and Spices",
+            "image": "http://cdn.shopify.com/s/files/1/0445/3407/1463/products/ArtemisiavulgarisMugwort_DaunHia_0.4m_2_1200x1200.jpg?v=1620397672",
+            "subGroup": "Herbs",
+            "commonName": "Mugwort",
+            "foodieFact": "Mugwort is a leafy shrub in the Daisy family. It has many pseudonyms: Felon Herb, St. John's Plant, and chrysanthemum weed.",
+            "triedCount": 1,
+            "scientificName": "Artemisia vulgaris"
+        },
+        {
+            "id": 6,
+            "group": "Vegetables",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpRVRo82m8gZXR4f2gquUVENfjEKUp6Jlt0A&usqp=CAU",
+            "subGroup": "Shoot vegetables",
+            "commonName": "Asparagus",
+            "foodieFact": "It takes about three years from a seed to get your first harvest from a garden asparagus plant.",
+            "triedCount": 6,
+            "scientificName": "Asparagus officinalis"
+        },
+        {
+            "id": 7,
+            "group": "Cereals and cereal products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLYscZ2Gp6fzukLZudlPB1voDURdfLE_Wkg&usqp=CAU",
+            "subGroup": "Cereals",
+            "commonName": "Oat",
+            "foodieFact": "The cereal grain, oat, has been grown as a food crop for both humans and livestock for centuries, and has come to be known for its therapeutic and medicinal properties.",
+            "triedCount": 0,
+            "scientificName": "Avena sativa"
+        },
+        {
+            "id": 8,
+            "group": "Pulses",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAhivdtmGwn-a0TdZ7MRRv3QfAV4OVFdwnNw&usqp=CAU",
+            "subGroup": "Peas",
+            "commonName": "Chickpea",
+            "foodieFact": "India and Turkey are the largest producers of the chickpea.",
+            "triedCount": 0,
+            "scientificName": "Cicer arietinum"
+        },
+        {
+            "id": 9,
+            "group": "Gourds",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIiibrRfgboHPrl8Ui0EQ0wNX_enbfcReIfdL9FVQbtVDhrT5BN90nxlOD4iA5f28DBSE&usqp=CAU",
+            "subGroup": "Gourds",
+            "commonName": "Watermelon",
+            "foodieFact": "Watermelon is a vining plant. Its vines can reach a length of 3 meters (10 feet).",
+            "triedCount": 7,
+            "scientificName": "Citrullus lanatus"
+        },
+        {
+            "id": 10,
+            "group": "Coffee and coffee products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUF8-af1jOH3cOI7jJ-JJvvBsX-uVtmaaeXQ&usqp=CAU",
+            "subGroup": "Coffee",
+            "commonName": "Coffee",
+            "foodieFact": "The coffea species are shrubs or small trees native to tropical and southern Africa and tropical Asia.",
+            "triedCount": 2,
+            "scientificName": "Coffea"
+        },
+        {
+            "id": 11,
+            "group": "Coffee and coffee products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-a8yIjReV9uCG4b0hdVZ7FmOgJtYuseTMg&usqp=CAU",
+            "subGroup": "Coffee",
+            "commonName": "Arabica coffee",
+            "foodieFact": "Arabica coffee plants are self-pollinating, not cross-pollinating. They use pollen from themselves to reproduce, which keeps passing down the same genes.",
+            "triedCount": 5,
+            "scientificName": "Coffea arabica"
+        },
+        {
+            "id": 12,
+            "group": "Coffee and coffee products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3bOf1aHRo-PotKjPcDK1RVJ7ddOAn7xwwLw&usqp=CAU",
+            "subGroup": "Coffee",
+            "commonName": "Robusta coffee",
+            "foodieFact": "Robusta coffee is a coffee species that is well adapted to warm and humid equatorial lowlands, and is considered more resistant to diseases and pests.",
+            "triedCount": 2,
+            "scientificName": "Coffea canephora"
+        },
+        {
+            "id": 13,
+            "group": "Gourds",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgiO28-7rvE6co-bju6GqVTQjWnTJz40tM6WkUlkNV7QTcBtZ130YdM8MDMLWTQGolhxY&usqp=CAU",
+            "subGroup": "Gourds",
+            "commonName": "Muskmelon",
+            "foodieFact": "Muskmelon is a natural healer for people suffering from indigestion, constipation, and other digestive issues.",
+            "triedCount": 8,
+            "scientificName": "Cucumis melo"
+        },
+        {
+            "id": 14,
+            "group": "Soy",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzieHk7zryuXHpWzJ1k66ywQwa3O48GcZZOZXdBHN4yzCBo_qlOKXpqrIg7KG1aEmRSs4&usqp=CAU",
+            "subGroup": "Soy",
+            "commonName": "Soybean",
+            "foodieFact": "The soybean, is an erect, bushy, hairy, annual legume that typically grows from 2-6' tall.",
+            "triedCount": 2,
+            "scientificName": "Glycine max"
+        },
+        {
+            "id": 15,
+            "group": "Fruits",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDkDMnjOWgZiSULSmp3sJRSeJzA4crot6LRA&usqp=CAU",
+            "subGroup": "Berries",
+            "commonName": "Sea-buckthornberry",
+            "foodieFact": "Sea-buckthornberry leaves and flowers are traditionally used to  used to help with arthritis, gastrointestinal ulcers, gout, and rashes.",
+            "triedCount": 0,
+            "scientificName": "Hippophae rhamnoides"
+        },
+        {
+            "id": 16,
+            "group": "Cereals and cereal products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPfB452TdJnibtA-nbozEXKKjl3AoQUuP2bg&usqp=CAU",
+            "subGroup": "Cereals",
+            "commonName": "Barley",
+            "foodieFact": "Barley is one of the first cultivated grains, particularly in Eurasia as early as 10,000 years ago.",
+            "triedCount": 9,
+            "scientificName": "Hordeum vulgare"
+        },
+        {
+            "id": 17,
+            "group": "Vegetables",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAL6sOwVpJlWVcv43KJ6IZSJIbjwOw8odhYg&usqp=CAU",
+            "subGroup": "Leaf vegetables",
+            "commonName": "Water spinach",
+            "foodieFact": "Water spinach is a semi-aquatic, tropical plant grown as a vegetable for its tender shoots.",
+            "triedCount": 4,
+            "scientificName": "Ipomoea aquatica"
+        },
+        {
+            "id": 18,
+            "group": "Nuts",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn--VqF0zC_DQawmgaYtlh6ua_SJa-VA7WGorYm26b5rHtH1-5ks3kUEO6dQtp7bypE3Y&usqp=CAU",
+            "subGroup": "Nuts",
+            "commonName": "Black walnut",
+            "foodieFact": "Black walnut grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas.",
+            "triedCount": 7,
+            "scientificName": "Juglans nigra"
+        },
+        {
+            "id": 19,
+            "group": "Pulses",
+            "image": "https://t3.ftcdn.net/jpg/02/15/61/36/360_F_215613693_gQEu9Mu9R5Urm9aqpm52o3BxIxjaoFtK.jpg",
+            "subGroup": "Peas",
+            "commonName": "Grass pea",
+            "foodieFact": "The grass pea is used in unleavened Indian bread and used as animal fodder throughout the world.",
+            "triedCount": 10,
+            "scientificName": "Lathyrus sativus"
+        },
+        {
+            "id": 20,
+            "group": "Gourds",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XHclRcOVX5Y5eslICBd6rOiiMdRbyyGX0Q&usqp=CAU",
+            "subGroup": "Gourds",
+            "commonName": "Bitter gourd",
+            "foodieFact": "Bitter gourd is rich in a number of important antioxidants. A half a cup of fresh bitter gourd accounts for about 93% of the recommended daily intake of vitamin C.",
+            "triedCount": 0,
+            "scientificName": "Momordica charantia"
+        },
+        {
+            "id": 21,
+            "group": "Herbs and Spices",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJ5TNoVCU-AMJZ7SnWiO98WL1t_uLTNzEcHXQO2NrJNo-HSyG33rnoKnjEbg4-8gIWi0&usqp=CAU",
+            "subGroup": "Oilseed crops",
+            "commonName": "Evening primrose",
+            "foodieFact": "The oil from the evening primrose is used for overall skin health, including  to help clear up acne.",
+            "triedCount": 2,
+            "scientificName": "Oenothera biennis"
+        },
+        {
+            "id": 22,
+            "group": "Cereals and cereal products",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuN4Vtazzg1kk2-amNRSEGCjO23vys7QATPQ&usqp=CAU",
+            "subGroup": "Cereals",
+            "commonName": "Rice",
+            "foodieFact": "Farmed rice whose cultivars are most common globally, and was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago.",
+            "triedCount": 0,
+            "scientificName": "Oryza sativa"
+        },
+        {
+            "id": 23,
+            "group": "Vegetables",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOcHVmhs-Bl4O2_cT3nnwc4B5w6xzTkqYzKQ&usqp=CAU",
+            "subGroup": "Root vegetables",
+            "commonName": "Parsnip",
+            "foodieFact": "People used to believe (falsely) that eating parsnips could relieve a toothache or tired feet.",
+            "triedCount": 4,
+            "scientificName": "Pastinaca sativa"
+        },
+        {
+            "id": 24,
+            "group": "Pulses",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkZSeljKEQOICOuikAsSFhYB45wHS3FMn7Xg&usqp=CAU",
+            "subGroup": "Beans",
+            "commonName": "Scarlet bean",
+            "foodieFact": "The scarlet bean is a perennial, preferring cool, humid regions. In the proper site, Scarlet runner vines grow fast and furiously, easily reaching 20 feet tall.",
+            "triedCount": 0,
+            "scientificName": "Phaseolus coccineus"
+        },
+        {
+            "id": 25,
+            "group": "Nuts",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIVkpBv-jdzFSsW3mPMYk6cMwhRyBVs7yzRx8Lj4ToH51w1XMY8Ar5NEFsnKb_p8Z8NDM&usqp=CAU",
+            "subGroup": "Nuts",
+            "commonName": "Pine nut",
+            "foodieFact": "Pine nuts are edible seeds that come from different species of pine cones.",
+            "triedCount": 0,
+            "scientificName": "Pinus"
+        },
+        {
+            "id": 26,
+            "group": "Nuts",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJN4bTG8t73N8v8sF7leo6R6yhzgGNt_Fi81Lh2NYc4G7SxFLNpCMPsDvd73F6Grseke8&usqp=CAU",
+            "subGroup": "Nuts",
+            "commonName": "Pistachio",
+            "foodieFact": "Pistachios are one of the oldest flowering nut trees; humans have eaten pistachio nuts for at least 9,000 years.",
+            "triedCount": 11,
+            "scientificName": "Pistacia vera"
+        },
+        {
+            "id": 27,
+            "group": "Fruits",
+            "image": "https://envato-shoebox-0.imgix.net/1a4f/8df0-27b6-468f-875b-476c350cae88/EuropeanPlumsWithOneOpenFruitWoodenBowl.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=cd5acd267ab1422602f14e45b2e66d5e",
+            "subGroup": "Drupes",
+            "commonName": "European plum",
+            "foodieFact": "The European plum is also known as prune-plum because its fruits, with high sugar content, can be dried to produce prunes.",
+            "triedCount": 0,
+            "scientificName": "Prunus domestica"
+        }
+    ]
+}
