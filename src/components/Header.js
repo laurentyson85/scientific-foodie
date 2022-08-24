@@ -4,7 +4,7 @@ import React from "react";
 function Header() {
   return (
     <div>
-      
+      <h1>Scientific Foodie</h1>
     </div>
   );
 }
