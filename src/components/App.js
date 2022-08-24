@@ -10,8 +10,23 @@ import FoodForm from "./FoodForm";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">scientific foodie</header>
+    <div>
+      <Header />
+      <Nav />
+      <Switch>        
+        <Route path="/foods">
+          <FoodContainer />
+        </Route>
+        <Route path="/form">
+          <FoodForm />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="*">
+          <h1>404 Lauren add a cute veggie image here + note that no page exists</h1>
+        </Route>
+      </Switch>
     </div>
   );
 }
