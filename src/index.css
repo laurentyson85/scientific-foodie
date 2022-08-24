@@ -5,22 +5,23 @@ body {
 
 .navBar {
   text-align: center;
+  margin: 3rem
 }
 
 nav a {
   display: inline-bock; 
-  margin: 1rem 4rem;
+  margin: 4rem;
   text-decoration: none;
-  font-size: 1.5em;
-  color: firebrick;
-  border-bottom: 2px solid firebrick;
+  font-size: 1.6em;
+  color: #116600;
+  border-bottom: 2px solid #116600;
   transition: 0.1s;
 }
 
 nav a:hover,
 nav a:active {
-  color: tomato;
-  border-bottom: 2px solid tomato;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 
