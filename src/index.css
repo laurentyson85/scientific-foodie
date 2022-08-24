@@ -1,5 +1,6 @@
 body {
-  background-color: #ca0
+  background-color: #f5c000;
+  
 }
 
 
@@ -16,6 +17,7 @@ body {
   align-items: top;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #212529;
+  font-family:'Times New Roman', Times, serif
 }
 
