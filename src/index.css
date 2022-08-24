@@ -3,6 +3,11 @@ body {
   
 }
 
+.header {
+  text-align: center;
+  font-size: 2em;
+}
+
 .navBar {
   text-align: center;
   margin: 3rem
