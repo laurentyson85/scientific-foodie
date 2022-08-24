@@ -3,8 +3,36 @@ body {
   
 }
 
+.navBar {
+  text-align: center;
+}
 
-.App {
+nav a {
+  display: inline-bock; 
+  margin: 1rem 4rem;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: firebrick;
+  border-bottom: 2px solid firebrick;
+  transition: 0.1s;
+}
+
+nav a:hover,
+nav a:active {
+  color: tomato;
+  border-bottom: 2px solid tomato;
+}
+
+
+
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
   
 }
@@ -19,5 +47,5 @@ body {
   font-size: calc(10px + 2vmin);
   color: #212529;
   font-family:'Times New Roman', Times, serif
-}
+} */
 
