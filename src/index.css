@@ -66,9 +66,13 @@ nav a:active {
 }
 
 .card img {
-  width: 100%;
-  height: auto;
-  display: block;
+  justify-self: center;
+  height: 6rem;
+  width: auto;
+}
+
+.learnLink{
+  color: #116600;  
 }
 
 /* .card button {
@@ -97,3 +101,4 @@ nav a:active {
     width: calc(20% - 2rem);
   }
 }
+
