@@ -1,6 +1,5 @@
 body {
-  background-color: #f5c000;
-  
+  background-color: #f5c000;  
 }
 
 .header {
@@ -33,6 +32,15 @@ nav a:hover,
 nav a:active {
   color: white;
   border-bottom: 2px solid white;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10rem;
 }
 
 
