@@ -18,9 +18,12 @@ p {
   margin: 1.5rem;
 }
 
-.navBar {
-  text-align: center;
+.navBar {  
   margin: 1.5rem;
+  margin-right: auto;    
+  margin-left: auto;    
+  max-width: 100%;    
+  min-width: 1000px;
 }
 
 nav a {
@@ -31,6 +34,7 @@ nav a {
   color: #116600;
   border-bottom: 2px solid #116600;
   transition: 0.1s;
+  
 }
 
 nav a:hover,
@@ -53,23 +57,26 @@ nav a:active {
 }
 
 .card {
+  text-align: center;
+  margin: 1rem;
+  background-color: white;
+  padding: 2rem;
   margin: 1rem;
 }
 
 .card img {
-  width: 100%;
+  width: 100%;  
 }
 
-.card button {
+/* .card button {
   margin-top: 0.5rem;
-}
+} */
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .cards {
     display: flex;
     flex-wrap: wrap;
   }
-
   .card {
     width: calc(33% - 2rem);
   }
