@@ -7,7 +7,7 @@ function Nav() {
     <div className="navBar">
         <nav>
         <Link to="/">Home</Link>
-        <Link to="/foods">Foods</Link>
+        <Link to="/foods">All Foods</Link>
         <Link to="/form">Submit New Food</Link>
         </nav>
     </div>
