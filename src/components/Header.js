@@ -1,10 +1,10 @@
 import React from "react";
-import foodie from "../images/Foodie.png"
+import headerImg from "../images/newHeader.png"
 
 function Header() {
   return (
     <div className="header">        
-      <h1>Scientific {<img src={foodie}/>}</h1>
+      <img src={headerImg} alt="headerImg"/>
     </div>
   );
 }
