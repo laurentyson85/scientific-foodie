@@ -12,7 +12,7 @@ const [foods, setFoods] = useState([])
 useEffect(() => {
   fetch("http://localhost:3000/foods")
   .then(response => response.json())
-  .then(data => console.log(data))
+  .then(data => setFoods(data))
 }, [])
 
 
@@ -26,7 +26,7 @@ useEffect(() => {
       <Nav />
       <Switch>        
         <Route path="/foods">
-          <FoodContainer />
+          <FoodContainer foods={foods}/>
         </Route>
         <Route path="/form">
           <FoodForm />
