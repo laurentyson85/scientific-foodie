@@ -58,6 +58,7 @@ nav a:active {
 
 .card {
   text-align: center;
+  border-radius: 25px;
   margin: 1rem;
   background-color: white;
   padding: 2rem;
