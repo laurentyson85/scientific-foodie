@@ -8,10 +8,15 @@ body {
   font-size: 2em;
 }
 
+#headerImg {
+  width: 400px;
+  height: auto;
+  margin: 1.5rem;
+}
 
 .navBar {
   text-align: center;
-  margin: 1rem
+  margin: 1.5rem;
 }
 
 nav a {
