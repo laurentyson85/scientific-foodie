@@ -17,7 +17,7 @@ function FoodDetails() {
   
 
   return (
-    <div className="card">
+    <div className="detailCard">
         <img src={image} alt={scientificName} />      
         <h3>Scientific Name: {scientificName}</h3>
         <p><span style={{fontWeight: "bold"}}>Common Name:</span> {commonName}</p>
