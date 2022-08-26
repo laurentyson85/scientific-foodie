@@ -7,14 +7,29 @@ function FoodForm() {
       <h2>Submit a new food to the database</h2>
       <form >
         <label>
-            Scientific Name:
+            Scientific name:
             <input type="text" name="Scientific Name" placeholder="..." />
         </label>
-        <input type="text" name="Common Name" placeholder="common name" />
-        <input type="text" name="image" placeholder="image URL" />
-        <input type="text" name="Food Group" placeholder="food group" />
-        <input type="text" name="Food Sub-group" placeholder="food sub-group" />
-        <textarea type="text" name="Foodie Fact" placeholder="add foodie fact" />
+        <label>
+            Common name:
+            <input type="text" name="Common Name" placeholder="..." />
+        </label>
+        <label>
+            Food image url:
+            <input type="text" name="image" placeholder="..." />
+        </label>
+        <label>
+            Food group:
+            <input type="text" name="Food Group" placeholder="..." />
+        </label>
+        <label>
+            Food sub-group:
+            <input type="text" name="Food Sub-group" placeholder="..." />
+        </label>
+        <label>
+            Foodie Fact:
+            <textarea type="text" name="Foodie Fact" placeholder="..." />
+        </label>      
         <button type="submit">Add Food!</button>
       </form>
     </div>
