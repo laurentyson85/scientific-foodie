@@ -10,3 +10,5 @@ function Search() {
 }
 
 export default Search;
+
+//...as new foods are added, research how I can alphabatize my foods after new array is saved in State

@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Home from "./Home";
 import FoodContainer from "./FoodContainer";
 import FoodForm from "./FoodForm";
+import FoodDetails from "./FoodDetails";
 
 function App() {
 const [foods, setFoods] = useState([])
@@ -18,15 +19,16 @@ useEffect(() => {
 
 
 
-
-
   return (
     <div>
       <Header />
       <Nav />
       <Switch>        
         <Route path="/foods">
-          <FoodContainer foods={foods}/>
+          <FoodContainer exact foods={foods}/>
+        </Route>
+        <Route path="/foods/:id">
+          <FoodDetails />
         </Route>
         <Route path="/form">
           <FoodForm />
