@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom"
 
 
 function FoodDetails() {
-    const [food, setFood] = useState(null);
+    const [food, setFood] = useState([]);
     const { id } = useParams()
     //console.log(params)
     
@@ -11,9 +11,7 @@ function FoodDetails() {
         fetch(`http://localhost:3000/foods/${id}`)
             .then(response => response.json())
             .then(data => setFood(data))
-    }, [id])
-
-    console.log(food)
+    }, [])
 
     const { scientificName } = food
   
