@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, Switch } from "react-router-dom"
+import { Route, Switch} from "react-router-dom"
 import Header from "./Header";
 import Nav from "./Nav";
 import Home from "./Home";
@@ -9,6 +9,7 @@ import FoodDetails from "./FoodDetails";
 
 function App() {
 const [foods, setFoods] = useState([])
+//const match = useRouteMatch();
 
 useEffect(() => {
   fetch("http://localhost:3000/foods")
@@ -24,11 +25,11 @@ useEffect(() => {
       <Header />
       <Nav />
       <Switch>        
-        <Route path="/foods">
-          <FoodContainer exact foods={foods}/>
+        <Route exact path="/foods">
+          <FoodContainer foods={foods}/>
         </Route>
         <Route path="/foods/:id">
-          <FoodDetails foods={foods} />
+          <FoodDetails />
         </Route>
         <Route path="/form">
           <FoodForm />

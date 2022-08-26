@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom"
 
 
-function FoodDetails({foods}) {
-  const {id, group, image, subGroup, commonName, foodieFact, triedCount, scientificName} = foods
+function FoodDetails() {
+    const [food, setFood] = useState(null);
+    const { id } = useParams()
+    //console.log(params)
+    
+    useEffect(() => {
+        fetch(`http://localhost:3000/foods/${id}`)
+            .then(response => response.json())
+            .then(data => setFood(data.food))
+    }, [id])
+
+    console.log(food)
+
+    const { scientificName } = food
+  
 
   return (
     <div>
-      details! {id}
+      {scientificName}
     </div>
   );
 }

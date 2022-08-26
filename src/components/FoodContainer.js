@@ -7,6 +7,7 @@ function FoodContainer({foods}) {
         return(
             <FoodCard
             key={food.id}
+            id={food.id}
             scientificName={food.scientificName}
             image={food.image}
             />
