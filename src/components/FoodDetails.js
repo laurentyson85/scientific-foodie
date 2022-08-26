@@ -4,8 +4,7 @@ import { useParams } from "react-router-dom"
 
 function FoodDetails() {
     const [food, setFood] = useState([]);
-    const { id } = useParams()
-    //console.log(params)
+    const { id } = useParams()    
     
     useEffect(() => {
         fetch(`http://localhost:3000/foods/${id}`)
@@ -29,3 +28,5 @@ function FoodDetails() {
 }
 
 export default FoodDetails;
+
+//consider adding full crud. An i tried it button, and the ability to delete a food from the database
