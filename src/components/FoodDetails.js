@@ -10,7 +10,7 @@ function FoodDetails() {
     useEffect(() => {
         fetch(`http://localhost:3000/foods/${id}`)
             .then(response => response.json())
-            .then(data => setFood(data.food))
+            .then(data => setFood(data))
     }, [id])
 
     console.log(food)
