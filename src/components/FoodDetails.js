@@ -19,11 +19,11 @@ function FoodDetails() {
   return (
     <div className="card">
         <img src={image} alt={scientificName} />      
-        <h4>Scientific Name: {scientificName}</h4>
-        <p>Common Name: {commonName}</p>
-        <p>Food Group: {group}</p>
-        <p>Food Sub-group: {subGroup}</p>
-        <p>Foodie Fact: {foodieFact}</p>        
+        <h3>Scientific Name: {scientificName}</h3>
+        <p><span style={{fontWeight: "bold"}}>Common Name:</span> {commonName}</p>
+        <p><span style={{fontWeight: "bold"}}>Food Group:</span> {group}</p>
+        <p><span style={{fontWeight: "bold"}}>Food Sub-group:</span> {subGroup}</p>
+        <p><span style={{fontWeight: "bold"}}>Foodie Fact:</span> {foodieFact}</p>        
     </div>
   );
 }
