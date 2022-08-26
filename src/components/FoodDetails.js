@@ -13,12 +13,17 @@ function FoodDetails() {
             .then(data => setFood(data))
     }, [])
 
-    const { scientificName } = food
+    const { scientificName, commonName, foodieFact, group, image, subGroup} = food
   
 
   return (
-    <div>
-      {scientificName}
+    <div className="card">
+        <img src={image} alt={scientificName} />      
+        <h4>Scientific Name: {scientificName}</h4>
+        <p>Common Name: {commonName}</p>
+        <p>Food Group: {group}</p>
+        <p>Food Sub-group: {subGroup}</p>
+        <p>Foodie Fact: {foodieFact}</p>        
     </div>
   );
 }
