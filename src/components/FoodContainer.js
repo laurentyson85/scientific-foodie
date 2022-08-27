@@ -10,12 +10,14 @@ function FoodContainer({foods}) {
 
 
   function handleFilter(event){
-    console.log(event.target.value)
+    setSelectedGroup(event.target.value)
   }
 
   function handleSearch(newSearch){
     setSearch(newSearch)    
   }
+
+  console.log(selectedGroup)
 
     const myFoods = foods.map(food => {
         return(
