@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-function FoodCard({scientificName, image, id}) {
+function FoodCard({scientificName, commonName, image, id}) {
     
 
   return (
     <li className="card">      
-      <h4>{scientificName}</h4>            
+      <h4>{scientificName}</h4>
+      <p>{commonName}</p>            
       <img src={image} alt={scientificName} />
       <br></br>      
       <Link className="learnLink" to={`/foods/${id}`}>Learn more</Link>               

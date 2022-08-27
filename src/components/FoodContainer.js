@@ -9,6 +9,7 @@ function FoodContainer({foods}) {
             key={food.id}
             id={food.id}
             scientificName={food.scientificName}
+            commonName={food.commonName}
             image={food.image}
             />
         )
