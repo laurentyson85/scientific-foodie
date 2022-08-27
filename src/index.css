@@ -168,3 +168,10 @@ input{
   color: white;
 }
 
+.search {
+  width: 700px;
+}
+
+.filter {
+  width: 700px;
+}

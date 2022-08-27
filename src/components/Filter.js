@@ -3,7 +3,7 @@ import React from "react";
 
 function Filter() {
   return (    
-      <div className="Filter">
+      <div className="filter">
         <label>Filter by Food Group</label>        
         <select name="filter" >
           <option value="All">All</option>
