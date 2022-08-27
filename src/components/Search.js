@@ -8,7 +8,7 @@ function Search({search, handleSearch}) {
       <input
         type="text"        
         value={search}
-        placeholder="Type a food and press enter to search..."
+        placeholder="Type a common food name..."
         onChange={(event) => handleSearch(event.target.value)}
       />
     </div>
