@@ -1,5 +1,6 @@
 import React from "react";
 import FoodCard from "./FoodCard";
+import Search from "./Search";
 
 function FoodContainer({foods}) {
 
@@ -16,7 +17,11 @@ function FoodContainer({foods}) {
     }) 
 
   return (
-    <ul className="cards">{myFoods}</ul>
+    <div>
+        <Search/>
+        <ul className="cards">{myFoods}</ul>
+    </div>
+    
   );
 }
 
