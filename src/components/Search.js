@@ -7,9 +7,9 @@ function Search({search, handleSearch}) {
       <label>Search Database</label>
       <input
         type="text"        
-        // value={search}
-        placeholder="Type a food to search..."
-        // onChange={(event) => onSearchChange(event.target.value)}
+        value={search}
+        placeholder="Type a food and press enter to search..."
+        onChange={(event) => handleSearch(event.target.value)}
       />
     </div>
   );

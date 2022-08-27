@@ -5,7 +5,7 @@ function Filter({handleFilter}) {
   return (    
       <div className="filter">
         <label>Filter by Food Group</label>        
-        <select name="filter" >
+        <select name="filter" onChange={handleFilter} >
           <option value="All">All</option>
           <option value="Cereals and cereal products">Cereals</option>
           <option value="Coffee and coffee products">Coffee</option>

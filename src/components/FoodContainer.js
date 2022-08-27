@@ -13,8 +13,8 @@ function FoodContainer({foods}) {
     console.log(event.target.value)
   }
 
-  function handleSearch(event){
-    console.log(event.target.value)
+  function handleSearch(newSearch){
+    setSearch(newSearch)    
   }
 
     const myFoods = foods.map(food => {
