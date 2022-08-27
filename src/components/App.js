@@ -9,7 +9,7 @@ import FoodDetails from "./FoodDetails";
 
 function App() {
 const [foods, setFoods] = useState([])
-//const match = useRouteMatch();
+
 
 useEffect(() => {
   fetch("http://localhost:3000/foods")
@@ -38,7 +38,7 @@ useEffect(() => {
           <Home />
         </Route>
         <Route path="*">
-          <h1>404 Lauren add a cute veggie image here + note that no page exists</h1>
+          <h1>404</h1>
         </Route>
       </Switch>
     </div>

@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import FoodCard from "./FoodCard";
 import Search from "./Search";
 import Filter from "./Filter";
 
 function FoodContainer({foods}) {
+  const [selectedGroup, setSelectedGroup] = useState("All");
+  const [search, setSearch] = useState("")
+
+
+
+  function handleFilter(event){
+    console.log(event.target.value)
+  }
+
+  function handleSearch(event){
+    console.log(event.target.value)
+  }
 
     const myFoods = foods.map(food => {
         return(
@@ -19,8 +31,8 @@ function FoodContainer({foods}) {
 
   return (
     <div>
-        <Search/>
-        <Filter />
+        <Search search={search} handleSearch={handleSearch}/>
+        <Filter handleFilter={handleFilter}/>
         <ul className="cards">{myFoods}</ul>
     </div>
     

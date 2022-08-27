@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function Filter() {
+function Filter({handleFilter}) {
   return (    
       <div className="filter">
         <label>Filter by Food Group</label>        
