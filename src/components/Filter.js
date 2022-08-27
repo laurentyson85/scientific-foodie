@@ -14,7 +14,7 @@ function Filter({handleFilter}) {
           <option value="Herbs and Spices">Herbs and Spices</option>
           <option value="Nuts">Nuts</option>
           <option value="Pulses">Pulses</option>
-          <option value="Vegetabels">Vegetabels</option>
+          <option value="Vegetables">Vegetables</option>
         </select>
       </div>
   );
