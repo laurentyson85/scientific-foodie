@@ -7,7 +7,7 @@ function Search() {
       <label>Search Database</label>
       <input
         type="text"
-        id="search"
+        // id="search"
         // value={search}
         placeholder="Type a food to search..."
         // onChange={(event) => onSearchChange(event.target.value)}

@@ -1,6 +1,7 @@
 import React from "react";
 import FoodCard from "./FoodCard";
 import Search from "./Search";
+import Filter from "./Filter";
 
 function FoodContainer({foods}) {
 
@@ -19,6 +20,7 @@ function FoodContainer({foods}) {
   return (
     <div>
         <Search/>
+        <Filter />
         <ul className="cards">{myFoods}</ul>
     </div>
     
