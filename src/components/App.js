@@ -9,6 +9,15 @@ import FoodDetails from "./FoodDetails";
 
 function App() {
 const [foods, setFoods] = useState([])
+const [newFood, setNewFood] = useState({
+  group: "Fruits",
+  image: "https://envato-shoebox-0.imgix.net/1a4f/8df0-27b6-468f-875b-476c350cae88/EuropeanPlumsWithOneOpenFruitWoodenBowl.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=cd5acd267ab1422602f14e45b2e66d5e",
+  subGroup: "Drupes",
+  commonName: "European plum",
+  foodieFact: "The European plum is also known as prune-plum because its fruits, with high sugar content, can be dried to produce prunes.",
+  triedCount: 0,
+  scientificName: "Prunus domestica"
+})
 
 
 useEffect(() => {
@@ -35,7 +44,7 @@ useEffect(() => {
           <FoodForm />
         </Route>
         <Route exact path="/">
-          <Home />
+          <Home newFood={newFood}/>
         </Route>
         <Route path="*">
           <h1>404</h1>
