@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom"
 
 
 function FoodForm({addNewFood}) {
-
+  const history = useHistory();
   const [formData, setFormData] = useState({
     group: "",
     image: "",
@@ -37,7 +38,7 @@ function FoodForm({addNewFood}) {
       })
     })
     .then(response => response.json())
-    .then(addNewFood)
+    .then(addNewFood)    
     setFormData({
       group: "",
       image: "",
@@ -47,6 +48,7 @@ function FoodForm({addNewFood}) {
       triedCount: 0,
       scientificName: ""
     })
+    history.push("/")
   }
 
   
