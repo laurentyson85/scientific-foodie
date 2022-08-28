@@ -28,7 +28,9 @@ useEffect(() => {
 
 
 function addNewFood(newFood){  
-  console.log(newFood)
+  const updatedFoods = [...foods, newFood]
+  setFoods(updatedFoods)
+  setNewFood(newFood)
 }
 
 
