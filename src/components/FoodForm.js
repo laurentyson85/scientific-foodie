@@ -22,10 +22,34 @@ function FoodForm({addNewFood}) {
 
   function handleSubmit(event){
     event.preventDefault()
-    addNewFood(formData)
+
+    fetch("http://localhost:3000/foods", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        "group": formData.group,
+        "image": formData.image,
+        "subGroup": formData.subGroup,
+        "commonName": formData.commonName,
+        "foodieFact": formData.foodieFact,
+       "triedCount": formData.triedCount,
+        "scientificName": formData.scientificName,
+      })
+    })
+    .then(response => response.json())
+    .then(addNewFood)
+    setFormData({
+      group: "",
+      image: "",
+      subGroup: "",
+      commonName: "",
+      foodieFact: "",
+      triedCount: 0,
+      scientificName: ""
+    })
   }
 
-  //After I do my post request I should be able to access the id. double check
+  
 
   return (
     <div className="newFood">
@@ -33,11 +57,11 @@ function FoodForm({addNewFood}) {
       <form onSubmit={handleSubmit}>
         <label>
             Scientific name:
-            <input type="text" name="Scientific Name" value={formData.scientificName} onChange={handleForm}/>
+            <input type="text" name="scientificName" value={formData.scientificName} onChange={handleForm}/>
         </label>
         <label>
             Common name:
-            <input type="text" name="Common Name" value={formData.commonName} onChange={handleForm} />
+            <input type="text" name="commonName" value={formData.commonName} onChange={handleForm} />
         </label>
         <label>
             Food image url:
@@ -45,15 +69,15 @@ function FoodForm({addNewFood}) {
         </label>
         <label>
             Food group:
-            <input type="text" name="Food Group" value={formData.group} onChange={handleForm}/>
+            <input type="text" name="group" value={formData.group} onChange={handleForm}/>
         </label>
         <label>
             Food sub-group:
-            <input type="text" name="Food Sub-group" value={formData.subGroup} onChange={handleForm}/>
+            <input type="text" name="subGroup" value={formData.subGroup} onChange={handleForm}/>
         </label>
         <label>
             Foodie Fact:
-            <textarea type="text" name="Foodie Fact" value={formData.foodieFact} onChange={handleForm}/>
+            <textarea type="text" name="foodieFact" value={formData.foodieFact} onChange={handleForm}/>
         </label>      
         <button type="submit">Add Food!</button>
       </form>

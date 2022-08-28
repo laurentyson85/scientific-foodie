@@ -24,7 +24,7 @@ useEffect(() => {
   fetch("http://localhost:3000/foods")
   .then(response => response.json())
   .then(data => setFoods(data))
-}, [newFood])
+}, [])
 
 
 function addNewFood(newFood){  
