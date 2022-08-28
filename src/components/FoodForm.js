@@ -86,6 +86,3 @@ function FoodForm({addNewFood}) {
 }
 
 export default FoodForm;
-
-//tried count will default to 0 when new food is added
-//...as new foods are added, research how I can alphabatize my foods after new array is saved in State

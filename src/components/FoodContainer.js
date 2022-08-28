@@ -15,6 +15,8 @@ function FoodContainer({foods}) {
     setSearch(newSearch)    
   }
 
+  
+
   const foodsToDisplay = foods.filter((food) => {
     if (selectedGroup === "All") return true;
 
@@ -22,7 +24,15 @@ function FoodContainer({foods}) {
   }).filter(food => food.commonName.toLowerCase().includes(search.toLowerCase()));
 
   
-  const myFoods = foodsToDisplay.map(food => {
+  const myFoods = foodsToDisplay.sort((a, b) => {    
+    if (a.scientificName < b.scientificName) {
+      return -1;
+    }
+    if (a.scientificName > b.scientificName) {
+      return 1;
+    } 
+    return 0;
+  }).map(food => {
       return(
           <FoodCard
           key={food.id}
@@ -32,7 +42,9 @@ function FoodContainer({foods}) {
           image={food.image}
           />
       )
-  }) 
+  })
+  
+   
 
   return (
     <div>
