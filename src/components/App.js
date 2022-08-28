@@ -24,9 +24,12 @@ useEffect(() => {
   fetch("http://localhost:3000/foods")
   .then(response => response.json())
   .then(data => setFoods(data))
-}, [])
+}, [newFood])
 
 
+function addNewFood(newFood){  
+  console.log(newFood)
+}
 
 
   return (
@@ -41,7 +44,7 @@ useEffect(() => {
           <FoodDetails />
         </Route>
         <Route path="/form">
-          <FoodForm />
+          <FoodForm addNewFood={addNewFood}/>
         </Route>
         <Route exact path="/">
           <Home newFood={newFood}/>
