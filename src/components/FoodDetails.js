@@ -17,8 +17,8 @@ function FoodDetails() {
 
   return (
     <div className="detailCard">
-        <img src={image} alt={scientificName} />      
-        <h3>Scientific Name: {scientificName}</h3>
+        <h3>Scientific Name: {scientificName}</h3>      
+        <img src={image} alt={scientificName} />
         <p><span style={{fontWeight: "bold"}}>Common Name:</span> {commonName}</p>
         <p><span style={{fontWeight: "bold"}}>Food Group:</span> {group}</p>
         <p><span style={{fontWeight: "bold"}}>Food Sub-group:</span> {subGroup}</p>
