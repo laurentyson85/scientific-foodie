@@ -8,27 +8,27 @@ function FoodForm() {
       <form >
         <label>
             Scientific name:
-            <input type="text" name="Scientific Name" placeholder="..." />
+            <input type="text" name="Scientific Name"/>
         </label>
         <label>
             Common name:
-            <input type="text" name="Common Name" placeholder="..." />
+            <input type="text" name="Common Name" />
         </label>
         <label>
             Food image url:
-            <input type="text" name="image" placeholder="..." />
+            <input type="text" name="image"/>
         </label>
         <label>
             Food group:
-            <input type="text" name="Food Group" placeholder="..." />
+            <input type="text" name="Food Group"/>
         </label>
         <label>
             Food sub-group:
-            <input type="text" name="Food Sub-group" placeholder="..." />
+            <input type="text" name="Food Sub-group"/>
         </label>
         <label>
             Foodie Fact:
-            <textarea type="text" name="Foodie Fact" placeholder="..." />
+            <textarea type="text" name="Foodie Fact"/>
         </label>      
         <button type="submit">Add Food!</button>
       </form>
