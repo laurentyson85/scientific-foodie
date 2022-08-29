@@ -3,7 +3,7 @@
 <!-- ![Short Cocktail Recipes](https://user-images.githubusercontent.com/102639873/177058846-36bdb738-11eb-49dd-b89b-d4e399e5b043.gif) -->
 
 ## Description
-Welcome to the database that shares scientific information about fruits, vegatables, grains, gourds, and more! I built this React application because I love food and nerdy, fun facts. 
+Welcome to the database that shares scientific information about fruits, vegetables, grains, gourds, and more! I built this React application because I love food and nerdy, fun facts. 
 
 <!-- [Check out this two-minute video walkthrough of my app](https://youtu.be/APgdl-WwKyM) and [my blog post](https://dev.to/laurentyson85/utilizing-a-nested-get-request-3dj9) about the project; in the blog, I delve into some cool features! -->
 
@@ -20,7 +20,7 @@ After you're in your correct folder, run ``json-server --watch db.json`` in your
 
 ## Credit
 
-This application utilizes mock API food data from [Retool Utilities](https://retool.com/utilities/) which I edited to include food facts. The header logo was created on [Canva](https://www.canva.com/) 
+This application utilizes mock API food data from [Retool Utilities](https://retool.com/utilities/) which I edited to include food facts. The header logo was created on [Canva](https://www.canva.com/). 
 
 
 ## Contributing
