@@ -4,6 +4,7 @@ import { useHistory } from "react-router-dom"
 
 function FoodForm({addNewFood}) {
   const history = useHistory();
+
   const [formData, setFormData] = useState({
     group: "",
     image: "",
@@ -33,7 +34,7 @@ function FoodForm({addNewFood}) {
         "subGroup": formData.subGroup,
         "commonName": formData.commonName,
         "foodieFact": formData.foodieFact,
-       "triedCount": formData.triedCount,
+        "triedCount": formData.triedCount,
         "scientificName": formData.scientificName,
       })
     })
