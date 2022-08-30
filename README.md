@@ -5,7 +5,7 @@
 ## Description
 Welcome to the database that shares scientific information about fruits, vegetables, grains, gourds, and more! I built this React application because I love food and nerdy, fun facts. 
 
-<!-- [Check out this two-minute video walkthrough of my app](https://youtu.be/APgdl-WwKyM) and [my blog post](https://dev.to/laurentyson85/utilizing-a-nested-get-request-3dj9) about the project; in the blog, I delve into some cool features! -->
+[Check out this two-minute video walkthrough of my app](https://youtu.be/ahUF_YHmy1Y) and [my blog post](https://dev.to/laurentyson85/constructing-search-filter-functionality-in-react-dnd) about the project; in the blog, I delve into some cool features!
 
 
 ## Installation
