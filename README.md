@@ -1,6 +1,6 @@
 # Scientific Foodie
 
-<!-- ![Short Cocktail Recipes](https://user-images.githubusercontent.com/102639873/177058846-36bdb738-11eb-49dd-b89b-d4e399e5b043.gif) -->
+![scientific foodie gif](https://i.makeagif.com/media/8-30-2022/p2LEEk.gif)
 
 ## Description
 Welcome to the database that shares scientific information about fruits, vegetables, grains, gourds, and more! I built this React application because I love food and nerdy, fun facts. 

@@ -279,6 +279,16 @@
       "triedCount": 0,
       "scientificName": "Lens culinaris",
       "id": 28
+    },
+    {
+      "group": "Pulses",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgHa1bld4pod-5Ue7DnoH1jcIbXks0U3QCQg&usqp=CAU",
+      "subGroup": "Lentils",
+      "commonName": "Lentils",
+      "foodieFact": "Lentils are cholesterol-free and sodium-free, and loaded with potassium, folate, iron and fiber.",
+      "triedCount": 0,
+      "scientificName": "Lens culinaris",
+      "id": 29
     }
   ]
 }
