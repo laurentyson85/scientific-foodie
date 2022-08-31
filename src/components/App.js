@@ -43,7 +43,7 @@ function addNewFood(newFood){
           <FoodContainer foods={foods}/>
         </Route>
         <Route path="/foods/:id">
-          <FoodDetails />
+          <FoodDetails foods={foods} />
         </Route>
         <Route path="/form">
           <FoodForm addNewFood={addNewFood}/>
