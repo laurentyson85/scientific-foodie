@@ -7,7 +7,6 @@
       "subGroup": "Tropical fruits",
       "commonName": "Kiwi",
       "foodieFact": "Actinidia chinensis (Chinese gooseberry, kiwifruit, or yang tao) is native to China.",
-      "triedCount": 3,
       "scientificName": "Actinidia chinensis"
     },
     {
@@ -17,7 +16,6 @@
       "subGroup": "Onion-family vegetables",
       "commonName": "Leek",
       "foodieFact": "The leek is an ancient crop and is native to eastern Mediterranean lands and the Middle East.",
-      "triedCount": 9,
       "scientificName": "Allium porrum"
     },
     {
@@ -27,7 +25,6 @@
       "subGroup": "Root vegetables",
       "commonName": "Burdock",
       "foodieFact": "Burdock is commonly cultivated in Japan where it gives its name to a particular construction technique, burdock piling.",
-      "triedCount": 0,
       "scientificName": "Arctium lappa"
     },
     {
@@ -37,7 +34,6 @@
       "subGroup": "Spices",
       "commonName": "Horseradish",
       "foodieFact": "Horseradish has been cultivated for at least 2000 years for its pungent roots.",
-      "triedCount": 3,
       "scientificName": "Armoracia rusticana"
     },
     {
@@ -47,7 +43,6 @@
       "subGroup": "Herbs",
       "commonName": "Mugwort",
       "foodieFact": "Mugwort is a leafy shrub in the Daisy family. It has many pseudonyms: Felon Herb, St. John's Plant, and chrysanthemum weed.",
-      "triedCount": 1,
       "scientificName": "Artemisia vulgaris"
     },
     {
@@ -57,7 +52,6 @@
       "subGroup": "Shoot vegetables",
       "commonName": "Asparagus",
       "foodieFact": "It takes about three years from a seed to get your first harvest from a garden asparagus plant.",
-      "triedCount": 6,
       "scientificName": "Asparagus officinalis"
     },
     {
@@ -67,7 +61,6 @@
       "subGroup": "Cereals",
       "commonName": "Oat",
       "foodieFact": "The cereal grain, oat, has been grown as a food crop for both humans and livestock for centuries, and has come to be known for its therapeutic and medicinal properties.",
-      "triedCount": 0,
       "scientificName": "Avena sativa"
     },
     {
@@ -77,7 +70,6 @@
       "subGroup": "Peas",
       "commonName": "Chickpea",
       "foodieFact": "India and Turkey are the largest producers of the chickpea.",
-      "triedCount": 0,
       "scientificName": "Cicer arietinum"
     },
     {
@@ -87,7 +79,6 @@
       "subGroup": "Gourds",
       "commonName": "Watermelon",
       "foodieFact": "Watermelon is a vining plant. Its vines can reach a length of 3 meters (10 feet).",
-      "triedCount": 7,
       "scientificName": "Citrullus lanatus"
     },
     {
@@ -97,7 +88,6 @@
       "subGroup": "Coffee",
       "commonName": "Coffee",
       "foodieFact": "The coffea species are shrubs or small trees native to tropical and southern Africa and tropical Asia.",
-      "triedCount": 2,
       "scientificName": "Coffea"
     },
     {
@@ -107,7 +97,6 @@
       "subGroup": "Coffee",
       "commonName": "Arabica coffee",
       "foodieFact": "Arabica coffee plants are self-pollinating, not cross-pollinating. They use pollen from themselves to reproduce, which keeps passing down the same genes.",
-      "triedCount": 5,
       "scientificName": "Coffea arabica"
     },
     {
@@ -117,7 +106,6 @@
       "subGroup": "Coffee",
       "commonName": "Robusta coffee",
       "foodieFact": "Robusta coffee is a coffee species that is well adapted to warm and humid equatorial lowlands, and is considered more resistant to diseases and pests.",
-      "triedCount": 2,
       "scientificName": "Coffea canephora"
     },
     {
@@ -127,7 +115,6 @@
       "subGroup": "Gourds",
       "commonName": "Muskmelon",
       "foodieFact": "Muskmelon is a natural healer for people suffering from indigestion, constipation, and other digestive issues.",
-      "triedCount": 8,
       "scientificName": "Cucumis melo"
     },
     {
@@ -137,7 +124,6 @@
       "subGroup": "Soy",
       "commonName": "Soybean",
       "foodieFact": "The soybean, is an erect, bushy, hairy, annual legume that typically grows from 2-6' tall.",
-      "triedCount": 2,
       "scientificName": "Glycine max"
     },
     {
@@ -147,7 +133,6 @@
       "subGroup": "Berries",
       "commonName": "Sea-buckthornberry",
       "foodieFact": "Sea-buckthornberry leaves and flowers are traditionally used to  used to help with arthritis, gastrointestinal ulcers, gout, and rashes.",
-      "triedCount": 0,
       "scientificName": "Hippophae rhamnoides"
     },
     {
@@ -157,7 +142,6 @@
       "subGroup": "Cereals",
       "commonName": "Barley",
       "foodieFact": "Barley is one of the first cultivated grains, particularly in Eurasia as early as 10,000 years ago.",
-      "triedCount": 9,
       "scientificName": "Hordeum vulgare"
     },
     {
@@ -167,7 +151,6 @@
       "subGroup": "Leaf vegetables",
       "commonName": "Water spinach",
       "foodieFact": "Water spinach is a semi-aquatic, tropical plant grown as a vegetable for its tender shoots.",
-      "triedCount": 4,
       "scientificName": "Ipomoea aquatica"
     },
     {
@@ -177,7 +160,6 @@
       "subGroup": "Nuts",
       "commonName": "Black walnut",
       "foodieFact": "Black walnut grows mostly in riparian zones, from southern Ontario, west to southeast South Dakota, south to Georgia, northern Florida and southwest to central Texas.",
-      "triedCount": 7,
       "scientificName": "Juglans nigra"
     },
     {
@@ -187,7 +169,6 @@
       "subGroup": "Peas",
       "commonName": "Grass pea",
       "foodieFact": "The grass pea is used in unleavened Indian bread and used as animal fodder throughout the world.",
-      "triedCount": 10,
       "scientificName": "Lathyrus sativus"
     },
     {
@@ -197,7 +178,6 @@
       "subGroup": "Gourds",
       "commonName": "Bitter gourd",
       "foodieFact": "Bitter gourd is rich in a number of important antioxidants. A half a cup of fresh bitter gourd accounts for about 93% of the recommended daily intake of vitamin C.",
-      "triedCount": 0,
       "scientificName": "Momordica charantia"
     },
     {
@@ -207,7 +187,6 @@
       "subGroup": "Oilseed crops",
       "commonName": "Evening primrose",
       "foodieFact": "The oil from the evening primrose is used for overall skin health, including  to help clear up acne.",
-      "triedCount": 2,
       "scientificName": "Oenothera biennis"
     },
     {
@@ -217,7 +196,6 @@
       "subGroup": "Cereals",
       "commonName": "Rice",
       "foodieFact": "Farmed rice whose cultivars are most common globally, and was first domesticated in the Yangtze River basin in China 13,500 to 8,200 years ago.",
-      "triedCount": 0,
       "scientificName": "Oryza sativa"
     },
     {
@@ -227,7 +205,6 @@
       "subGroup": "Root vegetables",
       "commonName": "Parsnip",
       "foodieFact": "People used to believe (falsely) that eating parsnips could relieve a toothache or tired feet.",
-      "triedCount": 4,
       "scientificName": "Pastinaca sativa"
     },
     {
@@ -237,7 +214,6 @@
       "subGroup": "Beans",
       "commonName": "Scarlet bean",
       "foodieFact": "The scarlet bean is a perennial, preferring cool, humid regions. In the proper site, Scarlet runner vines grow fast and furiously, easily reaching 20 feet tall.",
-      "triedCount": 0,
       "scientificName": "Phaseolus coccineus"
     },
     {
@@ -247,7 +223,6 @@
       "subGroup": "Nuts",
       "commonName": "Pine nut",
       "foodieFact": "Pine nuts are edible seeds that come from different species of pine cones.",
-      "triedCount": 0,
       "scientificName": "Pinus"
     },
     {
@@ -257,7 +232,6 @@
       "subGroup": "Nuts",
       "commonName": "Pistachio",
       "foodieFact": "Pistachios are one of the oldest flowering nut trees; humans have eaten pistachio nuts for at least 9,000 years.",
-      "triedCount": 11,
       "scientificName": "Pistacia vera"
     },
     {
@@ -267,7 +241,6 @@
       "subGroup": "Drupes",
       "commonName": "European plum",
       "foodieFact": "The European plum is also known as prune-plum because its fruits, with high sugar content, can be dried to produce prunes.",
-      "triedCount": 0,
       "scientificName": "Prunus domestica"
     }
   ]
