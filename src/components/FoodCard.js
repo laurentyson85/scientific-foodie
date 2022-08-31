@@ -17,6 +17,3 @@ function FoodCard({scientificName, commonName, image, id}) {
 
 export default FoodCard;
 
-
-
-//consider where to add the i tried this button count

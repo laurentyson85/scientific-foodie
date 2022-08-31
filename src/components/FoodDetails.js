@@ -28,5 +28,3 @@ function FoodDetails() {
 }
 
 export default FoodDetails;
-
-//consider adding full crud. An i tried it button, and the ability to delete a food from the database

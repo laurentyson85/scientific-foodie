@@ -22,5 +22,3 @@ function Home({newFood}) {
 }
 
 export default Home;
-
-//have the state that contains the newly submitted food default to the last food in the db.json

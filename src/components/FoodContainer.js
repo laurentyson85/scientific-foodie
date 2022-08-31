@@ -15,8 +15,6 @@ function FoodContainer({foods}) {
     setSearch(newSearch)    
   }
 
-  console.log(search)
-
   const foodsToDisplay = foods.filter((food) => {
     if (selectedGroup === "All") return true;
 

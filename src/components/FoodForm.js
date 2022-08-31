@@ -11,8 +11,7 @@ function FoodForm({addNewFood}) {
     subGroup: "",
     commonName: "",
     foodieFact: "",
-    triedCount: 0,
-    scientificName: ""
+    scientificName: "",
   })
 
 
@@ -33,8 +32,7 @@ function FoodForm({addNewFood}) {
         "image": formData.image,
         "subGroup": formData.subGroup,
         "commonName": formData.commonName,
-        "foodieFact": formData.foodieFact,
-        "triedCount": formData.triedCount,
+        "foodieFact": formData.foodieFact,       
         "scientificName": formData.scientificName,
       })
     })
@@ -46,7 +44,6 @@ function FoodForm({addNewFood}) {
       subGroup: "",
       commonName: "",
       foodieFact: "",
-      triedCount: 0,
       scientificName: ""
     })
     history.push("/")
