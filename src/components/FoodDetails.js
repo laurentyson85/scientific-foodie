@@ -3,13 +3,11 @@ import { useParams } from "react-router-dom"
 
 
 function FoodDetails({foods}) {
-   
-    const { id } = useParams()    
-    
-    
 
+const { id } = useParams() 
+        
     if (foods.length > 0){
-      const { scientificName, commonName, foodieFact, group, image, subGroup} = foods.find(f => f.id === parseInt(id))
+      const {scientificName, commonName, foodieFact, group, image, subGroup} = foods.find(food => food.id === parseInt(id))
       return (
         <div className="detailCard">
             <h3>Scientific Name: {scientificName}</h3>      
@@ -19,7 +17,7 @@ function FoodDetails({foods}) {
             <p><span style={{fontWeight: "bold"}}>Food Sub-group:</span> {subGroup}</p>
             <p><span style={{fontWeight: "bold"}}>Foodie Fact:</span> {foodieFact}</p>        
         </div>
-      );    
+      ); 
     } else{
        return null
     }
