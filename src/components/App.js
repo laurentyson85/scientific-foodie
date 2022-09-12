@@ -15,7 +15,6 @@ const [newFood, setNewFood] = useState({
   subGroup: "Drupes",
   commonName: "European plum",
   foodieFact: "The European plum is also known as prune-plum because its fruits, with high sugar content, can be dried to produce prunes.",
-  triedCount: 0,
   scientificName: "Prunus domestica"
 })
 
